@@ -4,7 +4,6 @@ import React from 'react';
 import type { GetServerSideProps, GetStaticPaths, GetStaticProps, NextPage } from 'next';
 import styles from './styles.module.scss';
 
-// eslint-disable-next-line @typescript-eslint/no-var-requires
 const showdown = require('showdown');
 
 export interface IArticleProps {

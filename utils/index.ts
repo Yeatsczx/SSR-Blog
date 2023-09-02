@@ -1,7 +1,7 @@
 import { AppContext } from "next/app";
 
-export const LOCALDOMAIN = "https://ssr-blog-fe7ts2lzi-yeatsczx.vercel.app:3000";
-export const CMSDOMAIN = "https://ssr-blog-fe7ts2lzi-yeatsczx.vercel.app:1337";
+export const LOCALDOMAIN = "http://127.0.0.1:3000";
+export const CMSDOMAIN = "http://127.0.0.1:1337";
 
 export const getIsMobile = (context: AppContext) => {
   const { headers = {} } = context.ctx.req || {};
